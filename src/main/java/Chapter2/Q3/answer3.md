@@ -1,0 +1,2 @@
+#####     函数NlogN 与 N1+ε/√logN (ε>0) 哪个增长得更快？
+        用反证法，假设 Nε/√logN < NlogN。两边取对数有 ε/√logN logN < loglogN。即 ε√logN < loglogN。设t = logN，则 ε√t < logt <=> ε2t < log2t，这显然违背假设，因此假设 Nε/√logN < logN 不成立。故函数 NlogN增长得更快。
